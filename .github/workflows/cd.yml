@@ -7,7 +7,7 @@ on:
 env:
   ECR_REGISTRY: 398803372580.dkr.ecr.ap-south-1.amazonaws.com
   ECR_REPOSITORY: ecoligovenkat
-  EKS_CLUSTER: corporate-secondary
+  EKS_CLUSTER: ecoligo-cluster
   K8S_NAMESPACE: ecoligo-production
   HELM_CHART: kubernetes/helm/ecoligo-app
 
